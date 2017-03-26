@@ -1,0 +1,33 @@
+{
+    "author": "rsmeral",
+    "dependencies": {},
+    "keywords": [],
+    "name": "light-switch",
+    "pebble": {
+        "displayName": "Light Switch",
+        "enableMultiJS": false,
+        "messageKeys": [],
+        "projectType": "native",
+        "resources": {
+            "media": [
+                {
+                    "file": "images/lightbulb.png",
+                    "name": "IMAGE_MENU_ICON",
+                    "targetPlatforms": [
+                        "basalt"
+                    ],
+                    "type": "png-trans"
+                }
+            ]
+        },
+        "sdkVersion": "3",
+        "targetPlatforms": [
+            "basalt"
+        ],
+        "uuid": "0ecba86b-0e44-40b2-bc4a-4d0ede2f519b",
+        "watchapp": {
+            "watchface": false
+        }
+    },
+    "version": "1.0.0"
+}
